@@ -1,0 +1,9 @@
+# Candidate,TrES-5b
+# Period,1.482246865
+# All data spans days,1763.8738233800977
+# All data spans years,4.8
+
+# Candidate,TrES-5b
+# Period,1.482246865
+# All data spans days,4692.7818807219155
+# All data spans years,12.8
