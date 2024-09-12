@@ -83,7 +83,7 @@ def get_n_random_observations(n, tra_or_occ, start_time, end_time, astroplan_tar
     new_epochs = []
     for time in new_mid_times_bjd:
         new_epochs.append(get_epochs_for_new_data(np.array([time.value]), conjunction_time, orb_period, tra_or_occ))
-    new_errs = np.full(n, 0.0001)
+    new_errs = np.full(n, 0.001)
     new_tra_or_occ = np.full(n, "occ")
     return_dict = {
         "new_epochs": new_epochs,
